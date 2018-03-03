@@ -1,0 +1,370 @@
+/*homework wk1 - Personal Bio  */
+body {
+    box-sizing: border-box;
+}
+
+/* stylings for the main body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin: auto;
+    color: #777777;
+    background-image: url("../images/skyscraper.png");
+}
+
+/* top of the page with name & links to other pages on this site */
+header {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    border-bottom: solid 3px;
+    border-bottom-color: #4aaaa5;
+}
+
+/* name box in header */
+.name {
+    float: left;
+    width: 33.3%;;
+    padding-top: 35px;
+    height: 78px;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+/* main container on all pages */
+.container {
+    display: block;
+    width:960px;
+    margin:auto;
+}
+
+/* nav links in header */
+.headerlinks {
+    float: right;
+    position: relative;
+    top: 28px;
+    right: 10%;
+    color: #777777;
+    background-color: #4aaaa5
+}
+
+/* nav links in header */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    float: left;
+    color: #777777;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #777777;
+    color: white;
+}
+
+li a:active {
+    background-color: black;
+    color: #4aaaa5;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Main container header in index.html */
+.About-Tim {
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    width:66%;
+    text-align: justify;
+    background-color: #ffffff;
+    border: solid 3px;
+    border-color: #dddddd;
+}
+
+/* main container on all pages */
+.headername {
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+/* main container on index.html */
+.container2 {
+    margin: 10px;
+    padding: 10px;
+    border-top: solid 3px;
+    border-color: #cccccc;
+}
+
+/* main container on contact page */
+.connect {
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+    overflow: auto;
+    Text-align: center;
+    color: #4aaaa5;
+    font-size: 12px;
+    background-color: #ffffff;
+    border:solid 3px;
+    border-color: #dddddd;
+}
+
+/* main container on content page */
+.cwm {
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+/* main container on content page */
+.container3 {
+    border-top: solid 3px;
+    border-color: #dddddd;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+/* Main container on index.html */
+#Timprofile {
+    float: left;
+    height: 250px;
+    width: 250px;
+    border:  solid 3px;
+    border-color: #dddddd;
+    margin: 20px;
+}
+
+/* footer on all pages */
+#copyright { 
+    width: 100px;
+    height: 50px;
+    float: left;
+    position: relative;
+    left: 399px;
+    bottom: 3px
+}
+
+/* footer on all pages */
+#copyright1 {
+    width: 15px;
+    height: 15px;
+    float: left;
+    position: relative;
+    top: 21px;
+    left: 390px;
+}
+
+/* main container on contact and portfolio pages */
+.portfolio {
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    width:66%;
+    text-align: justify;
+    background-color: #ffffff;
+    border: solid 3px;
+    border-color: #dddddd;
+}
+/* main container on portfolio page */
+.portfolioimages {
+    float: left;
+    width: 85%;
+    margin: 10px;
+    padding: 30px;
+    border-top: solid 3px;
+    border-color: #cccccc;
+}
+
+/* images on portfolio page */
+.floating-box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #4aaaa5;
+}
+
+/* images on portfolio page */
+.Games, .Front-End, .backend, .fullstack, .javascript  {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height:25px;
+    position: relative;
+    line-height: 23px;
+    bottom: 75px;
+}
+
+footer {
+    width: 100%;
+    height: 44px;
+    bottom: 0;
+    padding: 5px;
+    margin: 30px;
+    background-color: #666666;
+    border-top: solid 3px;
+    border-top-color: #4aaaa5;
+}
+
+/* form box on contact page */
+.contactimages {
+    float: left;
+    width: 85%;
+    padding: 30px;
+    color: black;
+    border-top: solid 3px;
+    border-color: #cccccc;
+}
+
+/* contact page main container */
+#namebox {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    color: black;
+}
+
+/* contact page main container */
+#emailbox {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    color: black;
+}
+
+/* contact page main container */
+#messagebox {
+    width: 100%;
+    height: 300px;
+    line-height: 30px;
+    font-size: 24px;
+    color: black;
+}
+
+/* contact page main container */
+.textarea {
+    width: 100%;
+    height: 300px;
+}
+
+/* footer text  */
+h3 {
+    font-size: 16px;
+    float: left;
+    position: relative;
+    top: 11px;
+    left: 394px;
+}
+
+@media screen and (max-width: 1060px) {
+    .headerlinks {
+        right: 5%;
+    }
+    .name { 
+        left: 5%;
+    }
+}
+ @media screen and (max-width: 980px) {
+    .name {
+        left: 0px;
+        font-size: 40px;
+        height: 58px;
+    }
+    .container {
+        width: 100%;
+}
+    .About-Tim, .portfolio, {
+        width: 60%;
+    }
+    .connect {
+        float: right;
+        width: 30%;
+ }
+    .headerlinks {
+        right: 0px;
+        top: 14px;
+    } 
+    header {
+        height: 90px;
+    }
+ }
+
+ @media screen and (max-width: 840px) {
+     .About-Tim, .connect, .portfolio {
+         width: 100%;
+         margin: auto;
+     }
+ }
+ @media screen and (max-width: 768px) {
+     .About-Tim, .connect, .portfolio {
+         width: 100%;
+         margin-left: 0;
+         margin-right: 0;
+         float: left;
+         margin-top: 15px;
+     }
+     .About-Tim {
+         text-align: left;
+     }
+     #copyright1 {
+        left:165px;
+    }
+    h3 {
+        left: 170px;
+    }
+
+    #copyright {
+        left:180px;
+    }
+ }
+ @media screen and (max-width: 640px) {
+    .name {
+        width: 100%;
+        Font-size: 60px;
+    }
+    .headerlinks{
+         width: 100%;
+         content: center;
+         padding-left: 25%;
+         padding-right: 25%;
+         }
+    #copyright1 {
+        left:115px;
+    }
+    h3 {
+        left: 120px;
+    }
+
+    #copyright {
+        left:130px;
+    }
+ }
