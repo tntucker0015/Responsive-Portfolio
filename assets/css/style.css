@@ -19,7 +19,7 @@ header {
     padding: 0px;
     margin: 0px;
     width: 100%;
-    height: 110px;
+    height: 100px;
     background-color: #ffffff;
     border-bottom: solid 3px;
     border-bottom-color: #4aaaa5;
@@ -29,12 +29,13 @@ header {
 .name {
     float: left;
     width: 33.3%;;
-    padding-top: 35px;
-    height: 78px;
+    height: 100%;
     color: white;
     font-size: 60px;
     position: relative;
+    top: -20%;
     left: 10%;
+    padding-bottom: 20px;
     text-align: center;
     background-color: #4aaaa5;
 }
@@ -50,7 +51,7 @@ header {
 .headerlinks {
     float: right;
     position: relative;
-    top: 28px;
+    top: 20px;
     right: 10%;
     color: #777777;
     background-color: #4aaaa5
@@ -98,11 +99,10 @@ li a:hover {
     clear: both;
 }
 /* Main container header in index.html */
-.About-Tim {
+.About-Tim, .portfolio {
     float: left;
     margin-top: 30px;
     padding: 10px;
-    width:66%;
     text-align: justify;
     background-color: #ffffff;
     border: solid 3px;
@@ -373,4 +373,4 @@ h3 {
     #copyright {
         left:130px;
     }
- }
+}
