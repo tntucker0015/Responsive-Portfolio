@@ -76,7 +76,7 @@ li a {
     padding: 12px 10px;
     text-decoration: none;
 }
-
+/* adding action to link tabs when mouse hovers over */
 li a:hover {
     background-color: #777777;
     color: #4aaaa5;
@@ -86,12 +86,12 @@ li a:hover {
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
-
+/* shows what page you are on */
 .active {
     background-color: black;
     color: white;
 }
-
+/* clears bottom of page */
 .container::after {
     content: "";
     display: block;
@@ -290,7 +290,7 @@ h3 {
     top: 11px;
     left: 394px;
 }
-
+/* moves the header for desktop and lg laptops */
 @media screen and (max-width: 1060px) {
     .headerlinks {
         right: 5%;
@@ -299,6 +299,7 @@ h3 {
         left: 5%;
     }
 }
+/* changes to the header and main container for laptops */
  @media screen and (max-width: 980px) {
     .name {
         left: 0px;
@@ -323,13 +324,15 @@ h3 {
         height: 85px;
     }
  }
-
+/* changes that are made for lg tablets / sm laptops */
  @media screen and (max-width: 840px) {
      .About-Tim, .connect, .portfolio {
          width: 100%;
          margin: auto;
      }
  }
+ 
+ /* changes that are made for lg phones  */
  @media screen and (max-width: 768px) {
      .About-Tim, .connect, .portfolio {
          width: 100%;
@@ -352,6 +355,7 @@ h3 {
         left:180px;
     }
  }
+  /*  changes that are made for phones */
  @media screen and (max-width: 640px) {
     .name {
         width: 100%;
