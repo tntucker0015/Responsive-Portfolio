@@ -212,7 +212,7 @@ li a:hover {
 }
 
 /* images on portfolio page */
-.Games, .Front-End, .backend, .fullstack, .javascript  {
+.Games, .elementC, .backend, .fullstack, .javascript  {
     background-color: #4aaaa5;
     color: white;
     float: left;
